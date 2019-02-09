@@ -1,0 +1,6 @@
+{
+  "name": "Netflix GR Extension",
+  "version": "1.0",
+  "description": "An extension that provides information about that actor that sounds or looks familiar in your favorite TV shows",
+  "manifest_version": 2
+}
