@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      button {
-        height: 30px;
-        width: 30px;
-        outline: none;
-      }
-    </style>
-  </head>
-  <body>
-    <button id="changeColor"></button>
+    <link rel="stylesheet" href="popup.css">
     <script src="popup.js"></script>
-  </body>
+    <style>
+      * {box-sizing: border-box;}
+    </style>
+</head>
+<body>
+  <main>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      <div id="myDropdown" class="dropdown-content">
+         <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+          <a href="https://www.imdb.com/name/nm1676221/" target="_blank"><img src="images/jake.png" style="width:80px;height:106px;"><br>Jake Peralta</a>
+          <a href="https://www.imdb.com/name/nm0303073/" target="_blank"><img src="images/amy.png" style="width:80px;height:106px;"><br>Amy Santiago</a>
+          <a href="https://www.imdb.com/name/nm3715867/" target="_blank"><img src="images/rosa.png"style="width:80px;height:106px;"><br>Rosa Diaz</a>
+          <a href="https://www.imdb.com/name/nm0516266/" target="_blank"><img src="images/charles.png" style="width:80px;height:106px;"><br>Charles Boyle</a>
+          <a href="https://www.imdb.com/name/nm2003229/" target="_blank"><img src="images/gina.png" style="width:80px;height:106px;"><br>Gina Peretti</a>
+          <a href="https://www.imdb.com/name/nm0187719/" target="_blank"><img src="images/terry.png" style="width:80px;height:106px;"><br>Terry Jeffords</a>
+          <a href="https://www.imdb.com/name/nm0105672/" target="_blank"><img src="images/ray.png" style="width:80px;height:106px;"><br>Captain Holt</a>
+          <a href="https://www.imdb.com/name/nm0088781/" target="_blank"><img src="images/hitchcock.png" style="width:80px;height:106px;"><br>Hitchcock</a>
+          <a href="https://www.imdb.com/name/nm0571930/" target="_blank"><img src="images/scully.png" style="width:80px;height:106px;"><br>Scully</a>
+      </div>
+    </div>
+  </main>
+</body>
 </html>
